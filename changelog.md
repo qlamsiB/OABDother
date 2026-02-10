@@ -1,0 +1,205 @@
+```
+v1.9.7 | The BIG Fix
+```
+
+# important
+
+- sans crimson and classic sans king crimsons have been entirely wiped, if you were a legitamite owner of one, you should make a restore ticket; subsequently they have been replaced by lord kc and classic lord kc respectively.
+- sans crimson (not lord kc) is now obtainable by using a frog on 2akc with a 1% chance (shared within the shiny kc pool)
+
+# qol
+
+- reordered settings
+  1. volume
+  2. booleans
+  3. colors
+- renamed "Enable Perma-Day/Night" to "Lock Time"
+- renamed "Perma-Day/Night" to "Day/Night"
+- "Day/Night" option does not appear out when its former is disabled; has special colors to signify what its doing better
+- added a setting to skip item animations
+- new setting: alternative keybinds
+  - new kc alternative binds
+    - barrage > h
+    - chop > e
+    - te > f 
+  - stw left ctrl bind replaces Z bind when using alternative keybinds
+  - doppio two arm awakening bind on Z instead of H when using alternative keybinds
+- hovering over stats now highlights them faintly
+- icons now exist for "Global TS Cooldown", "Requiem Obtained", and "Samurai Obtained"; they can be found only in the menu
+- stand on/off no longer stacks ontop of them
+- ta4 nail  (T), the cooldown indicator on the right will display how long is left until your next bullet comes back
+- version indicators updated a tad bit
+- hovering over a stand now shows its category in a gradiented color
+  - white = basic
+  - blue = shiny
+  - green = evo
+  - blue/green = shiny evo
+  - gold = gold (amazing i know)
+  - red = admin/exclusive
+  - rainbow = seasonal
+  - prismatic = perma unob
+  - sunset = tourney
+- updated healthbar
+  - dodging (iframing), countering, deflecting, rtzing, and blocking will now show the appropiate information on the healthbar :)
+- updated storage and bank uis
+- blood moons are now voted on
+- manhole covers made intangible for general mobility convenience 
+- magicians red Red Bind now uses updated entity selection system
+
+# misc
+
+- changed spso spear model
+- fixed emperor shard h 
+- kqau can no longer fall into the void
+- fixed kars having no quotes
+- fixed sand pile kars 
+- fixed classic spova being broken on spawn
+- fixed classic rsp being broken on spawn
+- fixed creeper queen breaking upon trying to grab
+- remade d4c clone bombs
+- fixed items being able to be quick used
+- rescripted spin handler
+- spin f name changed to "Steel Ball Shotgun"
+- fixed projectile memory leaks
+- gold stands now have disappearing and appearing sfx
+- gold stands now have a golden kill effect
+- gold stands now have gold projectiles
+- te no longer freezes you forever in specific interactions
+- twoh has new vfx
+- twoh has new sfx
+- soccer ball no longer a bauble
+- removed vito npc o7
+- removed the count's pose music o7
+- santanna got its voicelines back
+- reactivated twoh/oh society
+- new anims for gws
+- fixed an esoteric bug with shadow the world enabling insane movestack jank
+- mih knives now actually appear in your hands
+- replaced billy's cookie with water for deimos obtainments
+- 2x event over
+- 2akc now holds a scalpel before throwing
+- fixed ckqbtd particles not being visible upon summon
+- updated spso model
+- fixed character loading bugs
+- anticheat tweaks
+- damage log tweaks
+- transparency tweaks
+- cd4c trail is not enabled on spawn
+- bureucrats superceded by frieza force gang
+- updated targetting on stone free's y
+- ta4 joints tweaked
+- ta4 t now has a cd indicator similar to m1s on some stands
+- removed wkc being a possible stand for deimos obtainment
+- ta4's "bleed" now ticks every .75s instead of 1s (also has damage indicators)
+- patched UNINTENTIONAL movestacking with d13
+- fixed death 13 hitboxes sometimes double hitting
+- fixed emotes stopping if you type anything in chat
+- the map should be harder to clip underneath accidentally
+- re-scripted NPC Damage system. Now Vampires during blood moon don't deal 10 quadrillion damage
+- iggy spins now
+- bobby bench
+- fixed menacingless dummy being able to get 16 walkspeed sometimes
+- fixed cd4c walkspeed sometimes being reset to 16
+- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the time
+- updated unob omt's name from One More Time to One More Time (Classic) to more easily differentiate the two
+- optimised the way omh spawns
+- made it so npcs can heal samurai users by attacking when second use block
+- npcs can no longer deal more damage than the amount of health the target has 
+- DIO now can no longer perform Time Stop while doing other moves
+- DIO's punches deal damage after time stop has ended (same with the effect, only appears after TS ended)
+- fixed star platinum variants' attack pose ending too quickly when using M1
+- added 'Cancel' button for the trade sender
+- added a 5 second wait before you can confirm a trade
+- gave emp mirror throw a hitbox visual 
+- made sta4 nail glide trail blue
+- rescripted twau beartrap
+# balance
+
+- SPSO
+  - t (spear) 
+    - bypasses counter
+    - can now be jumped during
+    - cd 25s > 13s
+    - endlag 0.75s > 0.5s
+  - v is like evil spirit's v
+  - h cd 10s > 5s
+- 1AKC/2AKC
+  - using the movestack with epitaph on doppio (1 or 2 arms) halves its cooldown
+- TA4
+  - ta4 block fixed to its correct 75% amount
+  - fixed ta4 nuclear bomb
+  - adjusted how ta4 nail fire direction works slightly (
+  - added a mouse filter to ta4, so the mouse will now ignore any effects when getting fire position
+  - regular T nail
+    - damage 15 > 17.5
+  - dark dermination (V toggled nail)
+    - damage 19 > 12.5
+    - speed 166 > 200
+  - null blow 
+    - stun duration 0 > 2
+  - nail glide 
+    - damage 12.5 > 1 (lol)
+    - fixed a debounce issue 
+  - fixed oversized heavy punch hitbox on ta4 (Xd)
+- Chaka
+  - chaka hp 300 > 260
+  - chaka e (rekka) no longer acts like an m1 combo
+- Spin
+  - steel ball lifetime 4s > 2s
+  - steel ball lifetime increased by 5 when redirection is used
+  - any projectiles redirect by water channeling get +2s of lifetime
+  - your own projectiles gain double damage if they are reflected by water channeling
+- Sword
+  - walkspeed 16 > 19
+  - sword moves no longer hit through ragdoll  
+- C/KCAU
+  - block 75% > 45%
+  - epitaph duration 3s
+  - f (epitaph) cd 20s > 10s
+- CTW
+  - E (barrage)
+    - punch damage 5 > 6
+    - kick damage 6 > 7.5
+    - cd 5s > 3s
+  - V (tp) cd 5s > 3.35s
+- Samurai
+  - F sped up 1.20x
+  - E 25/25 > 18.5/18.5 per slash
+- SC
+  - T 50 dmg > 30 dmg
+- SPTW 
+  - T 
+    - cd 6.5s > 14s
+    - dmg 35 > 25
+    - proj speed 175 > 150
+  - V 
+    - distance shortened
+    - now sets the user 25 jumppower (instead of the old 50)
+    - cd increased by 1.5s (5.5 > 7)
+  - B cd 6s > 7.5s
+- D13
+  - elbow slam (stand on F) reverted to regular speed, second hit ragdoll removed
+- Stone Free
+  - h cd 12s > 22s
+  - 80% > 65% block
+  - hp 297.5 > 290
+  - revengence buff moved from 25% hp to 15%
+  - revengence buff dmg nerfed from 1.25x > 1.1x
+- CD
+  - bearing shot now puts bloodshot on a 4s cd (or adds 4s to the current cd) [vise versa]
+- TWOH
+  - V no longer has revenge passive
+  - H ragdoll time 2s > 1.4s
+- KQAU
+  - E no longer berks the user
+  - E no longer locks the camera
+- SP
+  - Y
+    - Projectile speed sped up
+    - Damage 65 > 35
+- KSTW 🐈
+  - hp 220 > 236
+  - E cds seperated
+  - ragdoll stack instead of decay
+- Emperor 
+  - h (mirror) hitbox 3 > 4
