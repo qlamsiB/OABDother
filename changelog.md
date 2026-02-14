@@ -1,14 +1,11 @@
 ```
 v1.9.7 | The BIG Fix
 ```
-
 # important
-
 - sans crimson and classic sans king crimsons have been entirely wiped, if you were a legitamite owner of one, you should make a restore ticket; subsequently they have been replaced by lord kc and classic lord kc respectively.
 - sans crimson (not lord kc) is now obtainable by using a frog on 2akc with a 1% chance (shared within the shiny kc pool)
 
 # qol
-
 - reordered settings
   1. volume
   2. booleans
@@ -45,9 +42,9 @@ v1.9.7 | The BIG Fix
 - blood moons are now voted on
 - manhole covers made intangible for general mobility convenience 
 - magicians red Red Bind now uses updated entity selection system
+- added new changelog system, changelog ui now opens if you join a version you haven't joined before
 
 # misc
-
 - changed spso spear model
 - fixed emperor shard h 
 - kqau can no longer fall into the void
@@ -100,7 +97,7 @@ v1.9.7 | The BIG Fix
 - bobby bench
 - fixed menacingless dummy being able to get 16 walkspeed sometimes
 - fixed cd4c walkspeed sometimes being reset to 16
-- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the time
+- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the Fuckign time
 - updated unob omt's name from One More Time to One More Time (Classic) to more easily differentiate the two
 - optimised the way omh spawns
 - made it so npcs can heal samurai users by attacking when second use block
@@ -113,8 +110,13 @@ v1.9.7 | The BIG Fix
 - gave emp mirror throw a hitbox visual 
 - made sta4 nail glide trail blue
 - rescripted twau beartrap
+- whatsapp stw
+- fixed acid spit having incorrect colors/trails depending on what shiny youre using
+- mr C (dodge) renamed to "Slide"
+- fixed stw's greenie head being exposed
+- gave goldensnake yellow hit effects
 # balance
-
+- Y (acid spit) damage 45 total > 30 impact 2.5 dot
 - SPSO
   - t (spear) 
     - bypasses counter
@@ -202,4 +204,41 @@ v1.9.7 | The BIG Fix
   - E cds seperated
   - ragdoll stack instead of decay
 - Emperor 
-  - h (mirror) hitbox 3 > 4
+  - h (mirror) uses updated collision detection, same as beartrap
+- KQ
+  - kq rework bombs can no longer hit when the kq user is ragdolled
+- OGER
+  - healing (V+Y, Y) and stand jump (Z) paused when in RTZ
+- MR
+  - burn damage rescript updated
+  - V (slide) distance reduced 75 > 50
+  - G (fireball) startup is slower but there is no time period where the player holds the fireball before shooting
+  - Y (fire ankh) and F (triple fire ankh) each deal 35 damage but no longer have overtime burn
+- CD4C
+  - G (clone kick) hitbox will now begin when the server teleports the clone (so hitbox isnt wasted while clone is not usable)
+  - T (gun)
+    - speed 1x > 0.6x
+    - can be dodged, deflected, blocked and rtz'd (still bypasses counters)
+    - damage 40 > 30
+- D4C
+  - T (gun) damage nerfed 30 > 20
+- SPTW
+  - B (kick) linger 15 > 10
+  - Y (uppercut) hitbox range 4.5 > 3
+- TWAU
+  - beartrap can hit player
+  - E (triple combo) damage 20-20-35 > 10-15-25
+  - T (knife) damage per knife 8.5 > 7.5
+  - Y (gun) damage 30 > 25
+- DWS
+  - hp 300 > 275
+  - T (sniper fire)
+    - speed 0.5x > 0.3x
+    - damage 40 > 32.5
+  - B (kick)
+    - second hitbox range 5 > 3
+    - 2nd hit linger decreased by a few ticks
+  - G damage 37.5 > 32.5
+  - m1 damage 12.5 > 10
+  - R damage 27 > 25
+  - E total 31 > 27
