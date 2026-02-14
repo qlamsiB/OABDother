@@ -97,7 +97,7 @@ v1.9.7 | The BIG Fix
 - bobby bench
 - fixed menacingless dummy being able to get 16 walkspeed sometimes
 - fixed cd4c walkspeed sometimes being reset to 16
-- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the Fuckign time
+- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the time
 - updated unob omt's name from One More Time to One More Time (Classic) to more easily differentiate the two
 - optimised the way omh spawns
 - made it so npcs can heal samurai users by attacking when second use block
