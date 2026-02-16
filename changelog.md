@@ -2,10 +2,12 @@
 v1.9.7 | The BIG Fix
 ```
 # important
+
 - sans crimson and classic sans king crimsons have been entirely wiped, if you were a legitamite owner of one, you should make a restore ticket; subsequently they have been replaced by lord kc and classic lord kc respectively.
 - sans crimson (not lord kc) is now obtainable by using a frog on 2akc with a 1% chance (shared within the shiny kc pool)
 
 # qol
+
 - reordered settings
   1. volume
   2. booleans
@@ -45,6 +47,7 @@ v1.9.7 | The BIG Fix
 - added new changelog system, changelog ui now opens if you join a version you haven't joined before
 
 # misc
+
 - changed spso spear model
 - fixed emperor shard h 
 - kqau can no longer fall into the void
@@ -116,6 +119,7 @@ v1.9.7 | The BIG Fix
 - fixed stw's greenie head being exposed
 - gave goldensnake yellow hit effects
 # balance
+
 - Y (acid spit) damage 45 total > 30 impact 2.5 dot
 - SPSO
   - t (spear) 
