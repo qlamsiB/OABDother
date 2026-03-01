@@ -1,248 +1,60 @@
-```
-v1.9.7 | The BIG Fix
-```
-# important
+`v1.9.8a: HG UPDATE`
+# Important
 
-- sans crimson and classic sans king crimsons have been entirely wiped, if you were a legitamite owner of one, you should make a restore ticket; subsequently they have been replaced by lord kc and classic lord kc respectively.
-- sans crimson (not lord kc) is now obtainable by using a frog on 2akc with a 1% chance (shared within the shiny kc pool)
+## Hierophant Green
 
-# qol
+- Block % reduced (75 > 60)
+- HP Reduced (275 > 265)
+- WalkSpeed increased (16 > 18)
+- HG now has fun m1s
+- Emerald Splash [E] is now chargeable
+- T is now holdable
+- Y has been replaced with Punishment
+- F has been replaced with Binding Kick
+- G is now Elbow Bash
+- H is now Sweep Kick
+-# this mightve made hg too strong...
 
-- reordered settings
-  1. volume
-  2. booleans
-  3. colors
-- renamed "Enable Perma-Day/Night" to "Lock Time"
-- renamed "Perma-Day/Night" to "Day/Night"
-- "Day/Night" option does not appear out when its former is disabled; has special colors to signify what its doing better
-- added a setting to skip item animations
-- new setting: alternative keybinds
-  - new kc alternative binds
-    - barrage > h
-    - chop > e
-    - te > f 
-  - stw left ctrl bind replaces Z bind when using alternative keybinds
-  - doppio two arm awakening bind on Z instead of H when using alternative keybinds
-- hovering over stats now highlights them faintly
-- icons now exist for "Global TS Cooldown", "Requiem Obtained", and "Samurai Obtained"; they can be found only in the menu
-- stand on/off no longer stacks ontop of them
-- ta4 nail  (T), the cooldown indicator on the right will display how long is left until your next bullet comes back
-- version indicators updated a tad bit
-- hovering over a stand now shows its category in a gradiented color
-  - white = basic
-  - blue = shiny
-  - green = evo
-  - blue/green = shiny evo
-  - gold = gold (amazing i know)
-  - red = admin/exclusive
-  - rainbow = seasonal
-  - prismatic = perma unob
-  - sunset = tourney
-- updated healthbar
-  - dodging (iframing), countering, deflecting, rtzing, and blocking will now show the appropiate information on the healthbar :)
-- updated storage and bank uis
-- blood moons are now voted on
-- manhole covers made intangible for general mobility convenience 
-- magicians red Red Bind now uses updated entity selection system
-- added new changelog system, changelog ui now opens if you join a version you haven't joined before
+- Hierophant Green & Hierophant Green (OVA) have gotten new models (made by deltnalt!)
+  - Retro Hierophant Green has been replaced with Hierophant Green (OVA)
+  - Cranberry HG and HG:HFTF use the normal HG model (with different colors ofc!)
+  - You can now press L with HG:HFTF equipped to change your stand's color palette
+  - You can use Nostalgia Relic on any HG variant to get its classic version
 
-# misc
+## Star Platinum
 
-- changed spso spear model
-- fixed emperor shard h 
-- kqau can no longer fall into the void
-- fixed kars having no quotes
-- fixed sand pile kars 
-- fixed classic spova being broken on spawn
-- fixed classic rsp being broken on spawn
-- fixed creeper queen breaking upon trying to grab
-- remade d4c clone bombs
-- fixed items being able to be quick used
-- rescripted spin handler
-- spin f name changed to "Steel Ball Shotgun"
-- fixed projectile memory leaks
-- gold stands now have disappearing and appearing sfx
-- gold stands now have a golden kill effect
-- gold stands now have gold projectiles
-- te no longer freezes you forever in specific interactions
-- twoh has new vfx
-- twoh has new sfx
-- soccer ball no longer a bauble
-- removed vito npc o7
-- removed the count's pose music o7
-- santanna got its voicelines back
-- reactivated twoh/oh society
-- new anims for gws
-- fixed an esoteric bug with shadow the world enabling insane movestack jank
-- mih knives now actually appear in your hands
-- replaced billy's cookie with water for deimos obtainments
-- 2x event over
-- 2akc now holds a scalpel before throwing
-- fixed ckqbtd particles not being visible upon summon
-- updated spso model
-- fixed character loading bugs
-- anticheat tweaks
-- damage log tweaks
-- transparency tweaks
-- cd4c trail is not enabled on spawn
-- bureucrats superceded by frieza force gang
-- updated targetting on stone free's y
-- ta4 joints tweaked
-- ta4 t now has a cd indicator similar to m1s on some stands
-- removed wkc being a possible stand for deimos obtainment
-- ta4's "bleed" now ticks every .75s instead of 1s (also has damage indicators)
-- patched UNINTENTIONAL movestacking with d13
-- fixed death 13 hitboxes sometimes double hitting
-- fixed emotes stopping if you type anything in chat
-- the map should be harder to clip underneath accidentally
-- re-scripted NPC Damage system. Now Vampires during blood moon don't deal 10 quadrillion damage
-- iggy spins now
-- bobby bench
-- fixed menacingless dummy being able to get 16 walkspeed sometimes
-- fixed cd4c walkspeed sometimes being reset to 16
-- made menacingless dummy Actually make you a menacingless dummy instead of breaking half the time
-- updated unob omt's name from One More Time to One More Time (Classic) to more easily differentiate the two
-- optimised the way omh spawns
-- made it so npcs can heal samurai users by attacking when second use block
-- npcs can no longer deal more damage than the amount of health the target has 
-- DIO now can no longer perform Time Stop while doing other moves
-- DIO's punches deal damage after time stop has ended (same with the effect, only appears after TS ended)
-- fixed star platinum variants' attack pose ending too quickly when using M1
-- added 'Cancel' button for the trade sender
-- added a 5 second wait before you can confirm a trade
-- gave emp mirror throw a hitbox visual 
-- made sta4 nail glide trail blue
-- rescripted twau beartrap
-- whatsapp stw
-- fixed acid spit having incorrect colors/trails depending on what shiny youre using
-- mr C (dodge) renamed to "Slide"
-- fixed stw's greenie head being exposed
-- gave goldensnake yellow hit effects
-# balance
+- Base SP has been replaced with SPSoda.
+- The SPSoda quest has been removed, now you just need to pay 180k Lire with Base SP equipped
+- Relic stuff:
+  - Relic on SPSoda ->  Regular SP
+  - Relic on Regular SP ->  Classic SP
+  - Relic on Classic SP -> SPSoda
+- spr now uses -> StarPlatinumRework (aka 3.0.2t sp) script instead of SPRequiem (aka we replaced spr's moveset with sp 3.0.2t) (this means spr is a 3.0.2t skin)
 
-- Y (acid spit) damage 45 total > 30 impact 2.5 dot
-- SPSO
-  - t (spear) 
-    - bypasses counter
-    - can now be jumped during
-    - cd 25s > 13s
-    - endlag 0.75s > 0.5s
-  - v is like evil spirit's v
-  - h cd 10s > 5s
-- 1AKC/2AKC
-  - using the movestack with epitaph on doppio (1 or 2 arms) halves its cooldown
-- TA4
-  - ta4 block fixed to its correct 75% amount
-  - fixed ta4 nuclear bomb
-  - adjusted how ta4 nail fire direction works slightly (
-  - added a mouse filter to ta4, so the mouse will now ignore any effects when getting fire position
-  - regular T nail
-    - damage 15 > 17.5
-  - dark dermination (V toggled nail)
-    - damage 19 > 12.5
-    - speed 166 > 200
-  - null blow 
-    - stun duration 0 > 2
-  - nail glide 
-    - damage 12.5 > 1 (lol)
-    - fixed a debounce issue 
-  - fixed oversized heavy punch hitbox on ta4 (Xd)
-- Chaka
-  - chaka hp 300 > 260
-  - chaka e (rekka) no longer acts like an m1 combo
-- Spin
-  - steel ball lifetime 4s > 2s
-  - steel ball lifetime increased by 5 when redirection is used
-  - any projectiles redirect by water channeling get +2s of lifetime
-  - your own projectiles gain double damage if they are reflected by water channeling
-- Sword
-  - walkspeed 16 > 19
-  - sword moves no longer hit through ragdoll  
-- C/KCAU
-  - block 75% > 45%
-  - epitaph duration 3s
-  - f (epitaph) cd 20s > 10s
-- CTW
-  - E (barrage)
-    - punch damage 5 > 6
-    - kick damage 6 > 7.5
-    - cd 5s > 3s
-  - V (tp) cd 5s > 3.35s
-- Samurai
-  - F sped up 1.20x
-  - E 25/25 > 18.5/18.5 per slash
-- SC
-  - T 50 dmg > 30 dmg
-- SPTW 
-  - T 
-    - cd 6.5s > 14s
-    - dmg 35 > 25
-    - proj speed 175 > 150
-  - V 
-    - distance shortened
-    - now sets the user 25 jumppower (instead of the old 50)
-    - cd increased by 1.5s (5.5 > 7)
-  - B cd 6s > 7.5s
-- D13
-  - elbow slam (stand on F) reverted to regular speed, second hit ragdoll removed
-- Stone Free
-  - h cd 12s > 22s
-  - 80% > 65% block
-  - hp 297.5 > 290
-  - revengence buff moved from 25% hp to 15%
-  - revengence buff dmg nerfed from 1.25x > 1.1x
-- CD
-  - bearing shot now puts bloodshot on a 4s cd (or adds 4s to the current cd) [vise versa]
-- TWOH
-  - V no longer has revenge passive
-  - H ragdoll time 2s > 1.4s
-- KQAU
-  - E no longer berks the user
-  - E no longer locks the camera
-- SP
-  - Y
-    - Projectile speed sped up
-    - Damage 65 > 35
-- KSTW 🐈
-  - hp 220 > 236
-  - E cds seperated
-  - ragdoll stack instead of decay
-- Emperor 
-  - h (mirror) uses updated collision detection, same as beartrap
-- KQ
-  - kq rework bombs can no longer hit when the kq user is ragdolled
-- OGER
-  - healing (V+Y, Y) and stand jump (Z) paused when in RTZ
-- MR
-  - burn damage rescript updated
-  - V (slide) distance reduced 75 > 50
-  - G (fireball) startup is slower but there is no time period where the player holds the fireball before shooting
-  - Y (fire ankh) and F (triple fire ankh) each deal 35 damage but no longer have overtime burn
-- CD4C
-  - G (clone kick) hitbox will now begin when the server teleports the clone (so hitbox isnt wasted while clone is not usable)
-  - T (gun)
-    - speed 1x > 0.6x
-    - can be dodged, deflected, blocked and rtz'd (still bypasses counters)
-    - damage 40 > 30
-- D4C
-  - T (gun) damage nerfed 30 > 20
-- SPTW
-  - B (kick) linger 15 > 10
-  - Y (uppercut) hitbox range 4.5 > 3
-- TWAU
-  - beartrap can hit player
-  - E (triple combo) damage 20-20-35 > 10-15-25
-  - T (knife) damage per knife 8.5 > 7.5
-  - Y (gun) damage 30 > 25
-- DWS
-  - hp 300 > 275
-  - T (sniper fire)
-    - speed 0.5x > 0.3x
-    - damage 40 > 32.5
-  - B (kick)
-    - second hitbox range 5 > 3
-    - 2nd hit linger decreased by a few ticks
-  - G damage 37.5 > 32.5
-  - m1 damage 12.5 > 10
-  - R damage 27 > 25
-  - E total 31 > 27
+## Sword
+
+- Sword has been replaced with Linger Sword.
+- Relic stuff:
+  - Relic on Linger Sword -> Regular Sword
+  - Relic on Regular Sword -> Linger Sword
+
+# Other
+
+- Emperor has a new skin.
+- added 2 furries
+- Added reset layout setting for mobile users (doesn't appear for pc players)
+- moved billy npc, changed billy npc dialogue, changed billy npc secret dialogue
+
+# Balance
+
+- fixed ta4 just Bypassing berserk for No reason lololo
+- cream z move has startup and endlag now
+
+# Bug Fixes
+
+- fixed mobile support's button saving in menu state after you reload / equip a different stand
+- fixed shiftlock not working on mobile
+- fixed WSOH's GlockOH
+- fixed anubis pin move allowing other moves to be used at the same time
+- fixed dws stand models blocking Hits
+- fixed wsoh (and testwsoh) overwrite not bypassing block
