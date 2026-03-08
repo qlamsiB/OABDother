@@ -1,60 +1,81 @@
-`v1.9.8a: HG UPDATE`
+`v1.9.8b: QUICK FIXES`
+
 # Important
 
-## Hierophant Green
-
-- Block % reduced (75 > 60)
-- HP Reduced (275 > 265)
-- WalkSpeed increased (16 > 18)
-- HG now has fun m1s
-- Emerald Splash [E] is now chargeable
-- T is now holdable
-- Y has been replaced with Punishment
-- F has been replaced with Binding Kick
-- G is now Elbow Bash
-- H is now Sweep Kick
--# this mightve made hg too strong...
-
-- Hierophant Green & Hierophant Green (OVA) have gotten new models (made by deltnalt!)
-  - Retro Hierophant Green has been replaced with Hierophant Green (OVA)
-  - Cranberry HG and HG:HFTF use the normal HG model (with different colors ofc!)
-  - You can now press L with HG:HFTF equipped to change your stand's color palette
-  - You can use Nostalgia Relic on any HG variant to get its classic version
-
-## Star Platinum
-
-- Base SP has been replaced with SPSoda.
-- The SPSoda quest has been removed, now you just need to pay 180k Lire with Base SP equipped
-- Relic stuff:
-  - Relic on SPSoda ->  Regular SP
-  - Relic on Regular SP ->  Classic SP
-  - Relic on Classic SP -> SPSoda
-- spr now uses -> StarPlatinumRework (aka 3.0.2t sp) script instead of SPRequiem (aka we replaced spr's moveset with sp 3.0.2t) (this means spr is a 3.0.2t skin)
-
-## Sword
-
-- Sword has been replaced with Linger Sword.
-- Relic stuff:
-  - Relic on Linger Sword -> Regular Sword
-  - Relic on Regular Sword -> Linger Sword
-
-# Other
-
-- Emperor has a new skin.
-- added 2 furries
-- Added reset layout setting for mobile users (doesn't appear for pc players)
-- moved billy npc, changed billy npc dialogue, changed billy npc secret dialogue
+nothing Lol this is just a quick update to fix some bugs and balance some things . expect more next update Ok? ok.
 
 # Balance
 
-- fixed ta4 just Bypassing berserk for No reason lololo
-- cream z move has startup and endlag now
+- 3.0.2t SP (aka star platinum prime)
+  - T 25s ???????? > 10s
+  - V 15s ??????? > 10s
+  - Y damage 50 > 30
+  - R move linger. 5 -> 10
+  - R move knockback time. 0.6s -> 0.3s
+  - R move's knockback velocity. 10 -> 33
+  - Decreased m1 hitbox size. 4 studs -> 3 studs
+- Hierophant Green Rework
+  - walkspeed -> 18
+  - F move startup wait time. 0.533s -> 0.45s
+- Tusk Act 4
+  - bypasses berserk again
+- Tusk Act 3
+  - tea heal from 7.5s to 12.5s
+- linger sword
+  - removed ragdoll on linger sword's kick
+  - hp nerfed 250 > 225
+- shiny sword
+  - hp nerfed 250 > 200.1
+- 1dkc
+  - foot slice works like TestWSOH kick
+  - -> if the enemy is ragdolled : extend ragdoll
+  - -> if the enemy isnt ragdolled : slow them and reduce jumppower
+- cream
+  - stand on R no longer bypasses iframes (Whyy y y did it bypass)
+- ckqbtd
+  - block % -> 80(????) > 65
+
+# Other
+
+- rescripted every single move type in the new damage rewrite
+- rescripted the world shadow
+- rescripted EmoteManager
+- rescripted EmoteSound
+- Added a setting to gamepad users that allows to toggle storing picked up items
+- Added HFTF UI to Retro variants of SP Prime
+- HFTF GUI is now above bottom right icons at all times
+- made jotaro say "hi you can talk to me again to claim your new stand" when you pay him the lire
+- new npcs: jerome, emperor + alex/topaz
+- deforested that one random tree on the hill where the shop is
+- renamed the following stands:
+  - Hierophant Green (Classic) (HFTF) > Hierophant Green (Heritage for the Future) (Classic)
+  - Hierophant Green (OVA) > Hierophant Green OVA
+  - Retro Hierophant Green > Retro Hierophant Green (Classic)
+  - sp rework -> sp prime
+  - sp -> classic sp
+  - classic sp -> beta sp
 
 # Bug Fixes
 
-- fixed mobile support's button saving in menu state after you reload / equip a different stand
-- fixed shiftlock not working on mobile
-- fixed WSOH's GlockOH
-- fixed anubis pin move allowing other moves to be used at the same time
-- fixed dws stand models blocking Hits
-- fixed wsoh (and testwsoh) overwrite not bypassing block
+- fixed aiko crimson hitting through TE
+- Fixed mobile support buttons not having an aspect ratio element, making them squished on tablets
+- Fixed SPP knife throw
+- Fixed TWAU Holdknife location
+- Fixed STW Knifethrow
+- fixed anubis E move not having a cooldown (LOL)
+- patched blockstacking on lmohe
+- fixed new freeze anchoring players in place
+- fixed visual bug with 3.0.2t sp (sp prime) where star finger would glow even if invisible during rage mode
+- fixed 3.0.2t rsp (rsp prime) missing some voicelines + not having directional movement 
+- fixed 3.0.2t sp (sp prime) being unable to stop charging on mobile/console
+- fixed 3.0.2t sp (sp prime) teleport/knife throw not working very well on mobile/console
+- fixed cream not having pose
+- included the player's character in mouse filter for hierophant green/rework + sp3 (3.0.2t sp)
+- fixed past billy merging into his present self
+- fixed two arm doppio blockstacking
+- made linger sword count for samurai quest damage
+- fixed Cream Z move (Void) Invisible bug
+- fixed spoh/steve giving you 18 base speed if you whiff the counter
+- fixed phantom R being broken on anubis (i hope)
+- fixed cmoon Z being stackable on itself
+- fixed sp rework (3.0.2t) (sp prime) R move having global sounds
