@@ -23,6 +23,5 @@
   - 4/1489 = bbk
     - if failed then 1/3 for kars, wamuu, and santana equally
 - refined darksnake's trails
-- cskc can now be reverted back to skc (skc was never eligible for wkc and still isn't)
 - Gave a pose to the following abilities: Luger, Aiko, Deimos, TWSU, VGE, VGER, SGE, SGER, Diamon Sword
 - Renamed "Shiny Sword" to "Diamond Sword"
