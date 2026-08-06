@@ -24,6 +24,7 @@
     - The user will add any limbs that are on the ground with themselves that they themselves are missing, healing them.
 - **B - Incision Slash**
     - The user swings a scalpel forth, dealing small damage and berserking. This move can be used with other stand moves.
+- It is obtained from arrows at a normal chance.
 
 # important
 - reenabled pay
