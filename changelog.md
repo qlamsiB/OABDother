@@ -1,19 +1,76 @@
-`v.14.0a`
+`v1.15.0`
 
-# fixes
-
-- Fixed Jotaro not giving you SPP
-- Fixed Bloodmoon breaking
-- Fixed Mono KCAU Classic's Time Skip move having the wrong sound
-- Fixed Roblox Emote Wheel not letting you open OABD's Emote Panel
-- Fixed not being able to transform Classic Sans Crimson into Sans Crimson
-- Fixed being able to get WKC from Sans Crimson
-- Fixed Mono Purple Haze's pose music
+# new
+- **NEW SPEC: ZEPELLI HAMON**
+  - **Q** - Healing Mode
+    - Toggles the healing mode which is used for a few moves. The user's left arm will radiate with a small effect to signify if it's active. 
+  - **E** - Ripple Overdrive
+    - The user imbues their elbow with Hamon before slamming it into the opponent, dealing moderate damage.
+  - **R** - Wave Kick
+    - The user channels Hamon into their leg before performing a knee kick, sending them forward a short distance. Ragdolls and sends opponents flying away.
+  - **T** - Zoom Punch
+    - Using hamon, the user disjoints their arm and extends it forward, dealing small damage but ragdolling.
+  - **Y** - Hamon Cutter
+    - The user shoots out 3 projectiles in a splitting arc, other projectiles that come into contact with them.
+  - **(Healing Mode) Y** - Glass Drink
+    - The user drinks a glass and restores 30 health.
+  - **F** - "What is Courage?"
+    - The user drives their hamon imbued fist into the opponent, dealing high damage but not ragdolling.
+  - **(Healing Mode) F** - Hamonic Touch
+    - Similar to F, instead heals the opponent and temporarily buffs them.
+  - **G** - Sendo Overdrive
+    - The user strikes the ground before channeling Hamon into it, creating a small area of effect around the user which sends opponents ragolling upward with small damage.
+  - **Aerial G** - Move
+    - The user briefly pauses in the air for a moment before spinning and diving with their legs in a tornado-like fashion. Deals average damage and ragdolls, sending opponents away.
+  - **(Low Health) H** - Deep Pass Overdrive
+    - The user briefly pauses, hovering over a character will allow you to select them. When a player is selected you are given a short timer to reach them. If you reach them you two will handshake and they will be healed and buffed.
+  - **Z** - Soaring Leap
+    - The user jumps up high vertically, holding it allows the user to glide.
+  - **C** - Gliding Steps
+    - The user performs small dashes that can be held down up to 3 times, lacks temporary dodge state during each.
 
 # misc
-
-- cge's tree deflect now doubles the damage
-- mono ph's capsule shot is now white instead of yellow
-- mono ph's strong punch color is now black instead of purple
-- neo twau can now palette swap by pressing L
-- neo twau now has a new death sound and new heavy punch/kick voicelines
+- removed temp servers
+- added vip server commands UI
+- Added a setting which can mute all pose musics except yours
+- Made Shiny Gem useable on Crazy Diamond Classic
+- Fixed Sticky Fingers V movestack
+- Fixed some stands not being able to cancel their ts
+- Added another pose theme to Golden D4C
+- replaced Midas Fingers pose music 
+- joseph molotov explosion vfx now gets disabled with potato mode
+- Stand Summon Transparency is instant when on potato mode (fixes fps drops on psc and stw)
+- Fixed Green Day V,G,H being useable in timestop
+- Made mold corpses uncollideable with mr president room
+- Fixed D13 hitboxes still showing when having debug mode disabled
+- Made mouse-aimed moves useable on mobile (aims at center of screen, which also means no more autoaim for donuts for example):
+  - Was already applied to all teleports
+  - Green Day G
+  - Magicians Red T
+  - Hierophant Green E
+  - Silver Chariot T, F
+  - Emperor M1, E, R, T, F, H
+  - The World Y
+  - Mr President F, P
+  - Stone Free Y, H
+  - Star Platinum Stone Ocean Y
+  - Gold Experience Requiem T, H
+  - Made In Heaven Y
+  - Tusk Act 1 E, R
+  - Tusk Act 2 E, R, T
+  - Tusk Act 3 E, R, T, Y
+  - Tusk Act 4 T, Y, H
+  - Spin Q, E, F
+  - Hierophant Green Classic E, Y, F
+  - The World Classic Y
+  - Star Platinum: The World (Beta) Y
+  - The World: High Voltage H
+  - Legacy MOHE Y
+- Fixed mouse-aimed moves such as donuts proccing on Map NPCs
+- Green Day's Mold no longer does tick damage while Timestop is active
+- raised gsaw pose volume
+- brought back old cd pose, it's now 50/50 between the new and old pose
+- Added color palette support to all devices via a button in settings
+- Made CatSTW hit vfx color for  M1s, e moves, R moves and F move random
+# balancing
+- Reduced linger on csp star finger 25 -> 15
